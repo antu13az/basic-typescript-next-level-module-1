@@ -13,7 +13,10 @@ const newPlayers = ["rohan", "abbas", "mahis"];
 const adjustAll = myPlayers.push(...newPlayers);
 console.log(adjustAll);
 
-const gritingsFriends = (...friends:string[]): void =>
-  console.log(friends);
+const gritingsFriends = (...friends: string[]): void =>
+  friends.forEach((friend)=> {
+    console.log(friend);
+  });
 
-gritingsFriends("eka","baka","taka","kola makha")
+gritingsFriends("eka", "baka", "taka", "kola makha","allu vorla");
+
