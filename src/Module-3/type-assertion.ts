@@ -11,6 +11,9 @@ const convertGm = (param: string | number): string | number | undefined => {
   if (typeof param === "string") {
     const getResult = parseFloat(param) * 1000;
     return getResult;
+  }else{
+    const cf = "hello"
+    return cf
   }
 };
 const getFinalResult = convertGm(10) as number

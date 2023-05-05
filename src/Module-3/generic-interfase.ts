@@ -24,7 +24,7 @@ interface HousbandWifetypeInterface {
   name: string;
   salary: number;
 }
-const crush3: CrushInterface<HusbandTypeInterface> = {
+const crush3: CrushInterface<HousbandWifetypeInterface> = {
   name: "Sakira",
   husband: { name: "Sajal", salary: 500000 },
 };
