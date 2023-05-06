@@ -13,6 +13,9 @@ interface InfoONe{
     price2: number, 
     
 }
+interface TestInterFace{
+    name: string,
+}
 const infoResult: InfoONe ={
     name:"Masum",
     address:"Manikgong",
